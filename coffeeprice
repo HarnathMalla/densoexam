@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int price,dis;
+scanf("%d %d",&price,&dis);
+int sum=0;
+while(price)
+{
+sum=sum+price;
+price=price/10;
+}
+printf("\n%d",sum);
+}
